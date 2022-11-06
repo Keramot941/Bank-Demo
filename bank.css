@@ -1,0 +1,71 @@
+.txt{
+    margin-top: 12px;
+    margin-left: 18px;
+}
+.row{
+    margin-top: 35px;
+    text-align: center;
+}
+.fst{
+    background: #E07C24;
+    padding:35px 42px;
+    color: aliceblue;
+    border: 1px #E07C24;
+    border-radius: 6px;
+    font-size: 18px;
+    margin: 11px;
+}
+.snd{
+    background: #ccb800;
+    padding:35px 42px;
+    color: aliceblue;
+    border: 1px #ccb800;
+    border-radius: 6px;
+    font-size: 18px;
+    margin: 11px;
+}
+.trd{
+    background: #4649e9;
+    padding:35px 42px;
+    color: aliceblue;
+    border: 1px #4649e9;
+    border-radius: 6px;
+    font-size: 18px;
+    margin: 11px;
+}
+.submitsec{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.deposite{
+    width: 45%;
+    background: #e6ded8;
+    padding: 22px 30px;
+    color: #000;
+    border: 1px #dfcdbf;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: left;
+}
+.withdraw{
+    width: 45%;
+    background: #e6ded8;
+    padding: 22px 30px;
+    color: #000;
+    border: 1px #dfcdbf;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: left;
+}
+.amount{
+    width: 70%;
+}
+.txtt{
+    margin-left: 5px;
+}
+.bttn{
+    margin-top: 7px;
+}
