@@ -1,6 +1,6 @@
 
     document.getElementById('submit').addEventListener('click', function(event){
-    event.preventDefault()
+    event.preventDefault();
     let getData = document.getElementById('text');
     let getValue = getData.value;
     
