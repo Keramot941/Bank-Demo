@@ -1,4 +1,6 @@
 document.getElementById('submit').addEventListener('click', function(){
+    document.getElementById('submit').addEventListener('click', function(event){
+    event.preventDefault()
     let getData = document.getElementById('text');
     let getValue = getData.value;
     
