@@ -12,5 +12,5 @@ document.getElementById('submit').addEventListener('click', function(){
     else {
         alert("Your username or password is invalid");
     }
-
+    }
 })
