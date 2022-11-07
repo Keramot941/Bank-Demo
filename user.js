@@ -1,4 +1,4 @@
-document.getElementById('submit').addEventListener('click', function(){
+
     document.getElementById('submit').addEventListener('click', function(event){
     event.preventDefault()
     let getData = document.getElementById('text');
@@ -12,5 +12,5 @@ document.getElementById('submit').addEventListener('click', function(){
     else {
         alert("Your username or password is invalid");
     }
-    }
+    
 })
