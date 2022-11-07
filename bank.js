@@ -33,27 +33,33 @@ document.getElementById('withdrawsubmit').addEventListener('click', function(){
     const within = document.getElementById('within');
     const withinValue = within.value;
     const withinInt = parseInt(withinValue);
-    
+    console.log(withinInt);
 
     const withdrawBalance = document.getElementById('withdrab');
     const withResult = withdrawBalance.innerText;
     const withInt = parseInt(withResult);
-
     const withTotal = withinInt + withInt;
-    withdrawBalance.innerText = withTotal;
-
-    within.value = '';
-
-
+    
     // total to withdraw
 
     const totalBalance = document.getElementById('totalb')
     const totalResult = totalBalance.innerText;
     const totalInt = parseInt(totalResult);
 
-    const total = totalInt - withinInt;
-    totalBalance.innerText = total;
+    // const total = totalInt - withinInt;
+    
+
+    if(withinInt <= totalInt){
+      let remainingBalance =  totalInt-withinInt;
+      totalBalance.innerText  = remainingBalance;
+      withdrawBalance.innerText = withTotal;
+
+      within.value = '';
+    }
+    else{
+        alert("Insufficient Balance")
+    }
 
     // total to withdraw end
 
-});
+})
